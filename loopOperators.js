@@ -45,3 +45,10 @@ for(let i = 2; i<10; i++) {
         console.log(i)
     }
 }
+
+prime: for (let i=2; i<=10; i++) {
+    for (let j=2; j<i; j++) {
+        if (i%j==0) continue prime;
+    }
+    console.log(i)
+}
