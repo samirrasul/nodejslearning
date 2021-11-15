@@ -5,5 +5,3 @@ let welcome = (age<18)?
     () => console.log("Greetings");
 
 welcome();
-
-
