@@ -1,7 +1,4 @@
-let age = 4
+let form = (a, b, c, d, e) => (a+b)^e/(c+d)^-e
 
-let welcome = (age<18)?
-    () => console.log("Hello"):
-    () => console.log("Greetings");
+console.log(form(1,2,3,4,5)
 
-welcome();

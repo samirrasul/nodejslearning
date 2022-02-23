@@ -1,6 +1,6 @@
 function isPrime(n) {
 
-    for (let i = 2; i < n; i++) {
+    for (let i = 1; i < n; i++) {
         let count = 0;
 
         for (let j = 1; j <= i; j++) {
