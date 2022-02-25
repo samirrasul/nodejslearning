@@ -56,3 +56,18 @@ let admin = user
 console.log(admin.age)
 admin.name = "Samir"
 console.log(admin.name)*/
+/*let user = {
+    name: "Khanate",
+    age: 1200,
+    sizes: {
+        height: 1.70,
+        weight: 50
+    }
+}
+
+//console.log(user.sizes.weight)
+
+let clone = Object.assign({surname: "Jacob"}, user)
+console.log(clone.sizes.height)
+clone.sizes.height++
+console.log(clone)*/
