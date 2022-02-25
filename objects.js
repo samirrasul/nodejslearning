@@ -35,14 +35,14 @@ console.log(user.birthdate + user.age)*/
 console.log(user[5])*/
 /*let codes = {
      "1" : "USA",
-     44 : "Germany",
+     return : "Germany",
      "994" : "Azerbaijan",
      41 : "Switzerland",
     name: "Random"
 }
 
 for (let key in codes) {
-        console.log(codes[key])
+        console.log(key)
 }
 
 //delete (codes["1"])
