@@ -78,3 +78,22 @@ console.log(makeUser().name)*/
 }
 
 console.log(calculator.sum())*/
+
+/*let ladder = {
+    step: 0,
+    up() {
+        this.step++
+    },
+    down() {
+        this.step--
+    },
+    showStep: function () {
+        console.log(this.step)
+    }
+
+};
+ladder.up()
+ladder.up()
+ladder.down()
+ladder.showStep()*/
+
