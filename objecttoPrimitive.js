@@ -1,14 +1,17 @@
-/*let user = {
+let user = {
     name: 'Jacob',
     age: 1200,
     [Symbol.toPrimitive](hint) {
         console.log(`hint: ${hint}`);
-        return hint == 'string' ? `name: '${this.name}'}`: this.age;
+        if(hint == 'string' || hint == 'number') {
+            return hint == 'string' ? `name: ${this.name}`: this.age;
+        }
+        return 1000;
     }
 };
-console.log(user)
+console.log(`${user}`)
 console.log(user + 600)
-console.log(++user)*/
+console.log(++user)
 
 /*let user = {
     name: 'Jacob'
