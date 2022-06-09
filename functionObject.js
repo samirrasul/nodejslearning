@@ -19,4 +19,12 @@ console.log(sayHi.counter)*/
 counter = makeCounter();
 console.log(counter());*/
 
+function sayHi(who) {
+    if(who) {
+        console.log(`Hello, ${who}`);
+    } else {
+        sayHi("Guest");
+    }
+}
 
+sayHi("Jacob");
